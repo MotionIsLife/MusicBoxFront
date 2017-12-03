@@ -16,11 +16,12 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "babel src -d dist --presets es2015",
+    "watch": "babel src -d dist --presets es2015 -w",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
-  "main": "index.js",
+  "main": "App.js",
   "keywords": [],
   "author": "",
   "license": "ISC"
